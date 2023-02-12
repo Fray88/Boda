@@ -27,6 +27,19 @@ $border-width: 2px;
 
 @import "bootstrap/scss/bootstrap";
 
+
+// My personal class
+.footer-style {
+  gap: 1rem;
+
+  .footer-mid {
+    padding: 0 .5rem;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+  }
+}
+
+/**********************/
 /********** Template CSS ************/
 .font-secondary {
   font-family: "Kalam", cursive;
