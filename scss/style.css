@@ -8992,8 +8992,24 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .footer-style .footer-mid {
   padding: 0 0.5rem;
-  border-left: 1px solid #FFFFFF;
-  border-right: 1px solid #FFFFFF;
+  border: none;
+}
+@media only screen and (min-width: 442px) {
+  .footer-style .footer-mid {
+    border-right: 1px solid #FFFFFF;
+  }
+}
+@media only screen and (min-width: 470px) {
+  .footer-style .footer-mid {
+    border-left: 1px solid #FFFFFF;
+    border-right: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer-style .footer-mid {
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+  }
 }
 
 /**********************/

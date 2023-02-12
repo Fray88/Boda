@@ -34,8 +34,18 @@ $border-width: 2px;
 
   .footer-mid {
     padding: 0 .5rem;
-    border-left: 1px solid #FFFFFF;
-    border-right: 1px solid #FFFFFF;
+    border: none;
+    @media only screen and ( min-width: 442px){
+      border-right: 1px solid #FFFFFF;
+    }
+    @media only screen and ( min-width: 470px){
+      border-left: 1px solid #FFFFFF;
+      border-right: none
+    }
+    @media only screen and ( min-width: 768px){
+      border-left: 1px solid #FFFFFF;
+      border-right: 1px solid #FFFFFF;
+    }
   }
 }
 
